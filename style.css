@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lobster Two', cursive;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3R0gijy1hx29mNIz0viNHgaZ1pVIkaq-V5kFCnVDht0MLy0uP);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    image-resolution: from-image;
+}
+
+header,footer {
+    background-color: orange;
+    padding-left: 15px;
+    border-left: 15px solid pink;
+    border-radius: 20px;
+}
+
+input {
+    font-family: 'Lobster Two', cursive;
+    color: red;
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 15px 0px;
+    text-align: center;
+}
+
+#upper_selector {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#searchbar {
+    background-color: rgba(240, 149, 231, 0.75);
+    padding: 5% 25% 5%;
+    border-left: 15px solid orange;
+    border-radius: 20px;
+    margin: 25px 0px;
+}
+
+#cool_button {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#many_messages {
+    padding-left: 5%;
+}
+
+.message_box_read_mail,.message_box_unread_mail {
+    display: block;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.message_box_read_mail {
+    background-color: rgba(250, 151, 30, 0.75);
+    color: rgba(0,0,0,0.5);
+    border: 2px solid rgb(224, 79, 210);
+}
+
+.message_box_unread_mail {
+    background-color: rgba(250, 85, 30, 0.75);
+    border: 2px solid rgb(209, 56, 145);
+}
+
+.mail_starter,.sent_from,.mail_author,.favourites {
+    display: inline-block;
+    width: 200px;
+}
+
+.sent_from {
+    text-decoration: underline;
+    text-align: right;
+    font-size: 125%;
+}
+
+.upvoted {
+    color: rgb(124, 145, 0);
+}
